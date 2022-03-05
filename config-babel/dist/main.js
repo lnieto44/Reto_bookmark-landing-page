@@ -1,0 +1,1 @@
+(async()=>{try{const o=await fetch("https://jsonplaceholder.typicode.com/posts"),c=await o.json();console.log(c)}catch(o){console.log(o)}})();
